@@ -197,15 +197,18 @@ Node* voltarMusica(Node *current) {
 }
 
 void menu() {
-    printf("Menu de opções:\n");
-    printf("1. Exibição da playlist pela ordem de cadastro\n");
-    printf("2. Exibição da playlist ordenada pelo nome das músicas\n");
-    printf("3. Inserção de novas músicas\n");
-    printf("4. Remoção de uma música\n");
-    printf("5. Busca por uma música\n");
-    printf("6. Avançar para próxima música\n");
-    printf("7. Retornar a música anterior\n");
+    printf("\n==============================\n");
+    printf("          Menu de Opções      \n");
+    printf("==============================\n");
+    printf("1. Exibir playlist (ordem de cadastro)\n");
+    printf("2. Exibir playlist (ordenada por nome da música)\n");
+    printf("3. Inserir nova música\n");
+    printf("4. Remover música\n");
+    printf("5. Buscar música\n");
+    printf("6. Avançar para a próxima música\n");
+    printf("7. Retornar à música anterior\n");
     printf("8. Sair\n");
+    printf("==============================\n");
 }
 
 int main() {
